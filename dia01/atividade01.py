@@ -1,6 +1,4 @@
-"""
-1. Crie um programa que peça um número e mostre o seu sucessor e antecessor
-"""
+#1. Crie um programa que peça um número e mostre o seu sucessor e antecessor
 
 numeroRecebido = int(input("Digite um número: "))
 
