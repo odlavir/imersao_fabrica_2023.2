@@ -21,5 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     
     path('tasks/', include('apps.todo.urls')),    
-    # path('user/', include('apps.users.urls')),    
+    path('users/', include('apps.users.urls')),    
 ]

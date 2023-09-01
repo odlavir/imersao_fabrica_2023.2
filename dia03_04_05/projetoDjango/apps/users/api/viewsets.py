@@ -1,10 +1,11 @@
-# from rest_framework.views import ModelViewSet
+from rest_framework.viewsets import ModelViewSet
 
-# from apps.users.models import User
-# from .serializers import UserSerializer
+from apps.users.models import User
+from .serializers import UserSerializer
 
-# class UserViewSet(ModelViewSet):
+class UserViewSet(ModelViewSet):
     
-#     queryset = User.objects.all()
+    # Busca todos os dados que estão na tabela Task.
+    queryset = User.objects.all()
     
-#     class_serializer = UserSerializer
+    serializer_class = UserSerializer
