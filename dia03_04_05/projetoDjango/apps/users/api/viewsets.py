@@ -5,7 +5,7 @@ from .serializers import UserSerializer
 
 class UserViewSet(ModelViewSet):
     
-    # Busca todos os dados que estão na tabela Task.
+    # Busca todos os dados que estão na tabela User.
     queryset = User.objects.all()
     
     serializer_class = UserSerializer
