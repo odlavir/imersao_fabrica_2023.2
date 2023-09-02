@@ -9,4 +9,4 @@ from .models import WatchedMovies
 class WatchedMoviesAdmin(admin.ModelAdmin):
   
   model = WatchedMovies
-  fields='__all__'
+  fields=['usuario', 'filme', 'comentario', 'nota', 'created_at']
