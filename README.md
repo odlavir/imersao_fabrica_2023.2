@@ -30,16 +30,16 @@ Esta API foi projetada para auxiliar na criação aplicativos e serviços que en
     - `DELETE /users/{id}`: Excluir um usuário.
     
 2. Filmes:
-    - `POST /filmes`: Cadastrar um novo filme.
-    - `GET /filmes/{id}`: Obter informações sobre um filme específico.
-    - `PUT /filmes/{id}`: Atualizar informações de um filme.
-    - `DELETE /filmes/{id}`: Excluir um filme.
+    - `POST /movies`: Cadastrar um novo filme.
+    - `GET /movies/{id}`: Obter informações sobre um filme específico.
+    - `PUT /movies/{id}`: Atualizar informações de um filme.
+    - `DELETE /movies/{id}`: Excluir um filme.
 
 3. Comentários e Avaliações:
-   - `POST /watched-movies`: Criar um comentário e uma avaliação, específicando o filme e usuário.
-   - `GET /watched-movies/{id}`: Obter o comentário e avaliação específico.
-   - `PUT /watched-movies/{id}`: Atualizar o comentário e avaliação específico.
-   - `DELETE /watched-movies/{id}`: Excluir o comentário e avaliação específico.
+   - `POST /movie-comments`: Criar um comentário e uma avaliação, específicando o filme e usuário.
+   - `GET /movie-comments/{id}`: Obter o comentário e avaliação específico.
+   - `PUT /movie-comments/{id}`: Atualizar o comentário e avaliação específico.
+   - `DELETE /movie-comments/{id}`: Excluir o comentário e avaliação específico.
   
 4. Admin
    - `/admin`: Acesso ao painel do administrador.

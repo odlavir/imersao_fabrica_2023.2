@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'apps.movies',
     'apps.users',
-    'apps.watched_movies',
+    'apps.movie_comments',
 ]
 
 MIDDLEWARE = [

@@ -3,4 +3,4 @@ from django.apps import AppConfig
 
 class WatchedMovieConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'apps.watched_movies'
+    name = 'apps.movie_comments'

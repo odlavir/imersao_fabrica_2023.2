@@ -22,5 +22,5 @@ urlpatterns = [
     
     path('movies/', include('apps.movies.urls')),
     path('users/', include('apps.users.urls')),
-    path('watched-movies/', include('apps.watched_movies.urls')),
+    path('movie-comments/', include('apps.movie_comments.urls')),
 ]

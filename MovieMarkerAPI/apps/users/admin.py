@@ -9,4 +9,4 @@ from .models import User
 class UserAdmin(admin.ModelAdmin):
   model = User
   
-  fields = ["nome", "email", "data_de_nascimento"]
+  fields = ["name", "email", "date_of_birth", "created_at"]
