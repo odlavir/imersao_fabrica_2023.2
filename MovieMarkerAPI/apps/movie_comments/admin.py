@@ -9,4 +9,4 @@ from .models import MovieComments
 class MovieCommentsAdmin(admin.ModelAdmin):
   
   model = MovieComments
-  fields=['user', 'movie', 'comment', 'rate', 'created_at']
+  fields = ["movie", "user", "comment", "rate", "created_at"]  

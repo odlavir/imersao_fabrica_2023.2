@@ -8,6 +8,7 @@ class User(models.Model):
   email = models.EmailField(unique=True)
   date_of_birth = models.DateField()
   created_at = models.DateField(auto_now_add=True)
+  
 
   def __str__(self):
     return self.name

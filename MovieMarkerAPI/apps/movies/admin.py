@@ -9,4 +9,4 @@ from .models import Movie
 class MovieAdmin(admin.ModelAdmin):
   model = Movie
   
-  fields=['title', 'description', 'release_year']
+  fields = ["id", "title", "description", "release_year", "interation"]
